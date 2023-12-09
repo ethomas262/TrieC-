@@ -12,7 +12,7 @@ public:
 	string suggest(string input);
 
 private:
-	TrieNode root;
+	TrieNode root; 	//Root TrieNode with Null Value used to maintain start index
 };
 
 Trie::Trie() {
@@ -27,3 +27,5 @@ bool Trie::search(string input) {
 string suggest(string input) {
 	return "FIXME:: ADD SUGGESTION FUNCTIONALITY";
 }
+
+
