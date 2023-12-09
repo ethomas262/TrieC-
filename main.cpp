@@ -3,6 +3,9 @@
 
 using namespace std;
 
+
+
+//simple Test script for functionality
 int main() {
 	vector<string> testStrings = { "hello", "world", "howareyoy", "doing" };
 	Trie t;
